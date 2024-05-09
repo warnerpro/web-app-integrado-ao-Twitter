@@ -1,0 +1,104 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    z-index: 1000; /* Garante que o cabeçalho esteja na frente de outros elementos */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.logo-text {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+main {
+    padding: 80px 20px 20px;
+    margin-top: 60px; /* Para evitar que o conteúdo fique escondido atrás do cabeçalho fixo */
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both; /* Limpa o float */
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+}
